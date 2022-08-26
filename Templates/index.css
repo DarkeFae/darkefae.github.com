@@ -35,6 +35,17 @@
 
   .main {
     height: 100%;
-    width: 100%;
-    padding-left: 175px;
+    width: auto;
+    padding-left: 200px;
   }
+
+.output {
+  height: 100%;
+  width: 70%;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  border-style:double;
+  border-color: blueviolet;
+  padding-left: 0px;
+
+}

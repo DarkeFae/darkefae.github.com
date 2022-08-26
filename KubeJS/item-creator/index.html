@@ -1,16 +1,19 @@
-<!DOCTYPE html>
 
-<head>
-    <script src="itemcreation.js"></script>
-</head>
+<!-- <head>
+    <script src="/KubeJS/item-creator/itemcreation.js"></script>
+    <link href="/Templates/index.css">
+</head> -->
 
 <body>
-    <form id="itemInput"> 
-        <input type="text" name="input"> <br>
-        <input type="button" onclick="mysubmit()" value="Create">
+    <div class="main">
+        <script src="/KubeJS/item-creator/itemcreation.js"></script>
+        <form id="itemInput"> 
+            <input type="text" name="input"> <br>
+            <input type="button" onclick="mysubmit()" value="Create">
 
 
-    </form>
-    <p id="out"></p>
-
+        </form>
+        <div class="output"><pre><code id="out"></code></pre></div>
+        <button onclick="copyFunction()">Copy text</button>
+    </div>
 </body>

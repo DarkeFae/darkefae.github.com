@@ -25,3 +25,7 @@ function mylogging(_list) {
     itemmaker.push('event.create(\'' + itemName +'\').displayName(\'' + _list +'\');')
 }
 
+function copyFunction() {
+var copier = document.getElementById("out").innerHTML.replace(/<br\s*[\/]?>/gi, "\n")
+navigator.clipboard.writeText(copier)
+}
