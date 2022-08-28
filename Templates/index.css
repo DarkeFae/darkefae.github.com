@@ -49,3 +49,12 @@
   padding-left: 0px;
 
 }
+
+footer {
+  width: 100%;
+  text-align: center;
+  z-index: 0;
+  position: absolute;
+  bottom: 0px;
+  font-size: x-small;
+}
